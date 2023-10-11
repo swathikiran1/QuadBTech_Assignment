@@ -509,7 +509,7 @@ app.get("/image/:userId", authenticateToken, async (request, response) => {
 
 // Create a User Details
 
-app.post("/insert/", async (request, response) => {
+app.post("/insert/", authenticateToken, async (request, response) => {
   const {
     userName,
     userEmail,
