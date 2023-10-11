@@ -1,0 +1,54 @@
+// Login API
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "userEmail": "vijay1997@gmail.com",
+    "userPassword": "Vijay@2001"
+}
+###
+
+
+// API 1
+GET http://localhost:3000/details/e83d9ff6-9035-4318-9954-276c56599b4a/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ2aWpheTE5OTdAZ21haWwuY29tIiwidXNlcklkIjoiN2UzOTY0MDktNDRlMS00MWVmLWE3YmItMDVhNTIxOTJlYzIxIiwiaWF0IjoxNjk3MDE1NDA1fQ.m-RAqUdFIQOYyOhadmAua01Jrv_nY7qmXt8i-Lx3UIc
+
+
+###
+
+// API 2
+PUT http://localhost:3000/update/e83d9ff6-9035-4318-9954-276c56599b4a/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ2aWpheTE5OTdAZ21haWwuY29tIiwidXNlcklkIjoiN2UzOTY0MDktNDRlMS00MWVmLWE3YmItMDVhNTIxOTJlYzIxIiwiaWF0IjoxNjk3MDE1NDA1fQ.m-RAqUdFIQOYyOhadmAua01Jrv_nY7qmXt8i-Lx3UIc
+Content-Type: application/json
+
+{
+   "userImage": "https://tse2.mm.bing.net/th?id=OIP.2chE4xaPW_-Un3RmEIcIYwAAAA&pid=Api&P=0&h=180"
+}
+
+###
+
+// API 3
+POST http://localhost:3000/insert/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ2aWpheTE5OTdAZ21haWwuY29tIiwidXNlcklkIjoiN2UzOTY0MDktNDRlMS00MWVmLWE3YmItMDVhNTIxOTJlYzIxIiwiaWF0IjoxNjk3MDE1NDA1fQ.m-RAqUdFIQOYyOhadmAua01Jrv_nY7qmXt8i-Lx3UIc
+Content-Type: application/json
+
+{
+   "userName": "adam_richard",
+    "userEmail": "adamrichard1985@gmail.com",
+    "userPassword": "richa123",
+    "userImage": "https://tse1.mm.bing.net/th?id=OIP.ZIlIk0TnjJGaTv8XttXjvgHaHa&pid=Api&P=0&h=180",
+    "totalOrders": "6"
+}
+
+###
+
+// API 4
+GET http://localhost:3000/image/e83d9ff6-9035-4318-9954-276c56599b4a/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ2aWpheTE5OTdAZ21haWwuY29tIiwidXNlcklkIjoiN2UzOTY0MDktNDRlMS00MWVmLWE3YmItMDVhNTIxOTJlYzIxIiwiaWF0IjoxNjk3MDE1NDA1fQ.m-RAqUdFIQOYyOhadmAua01Jrv_nY7qmXt8i-Lx3UIc
+
+###
+
+// API 5
+DELETE http://localhost:3000/delete/1ed08552-efb4-42f8-b30b-030a8cc81c98/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ2aWpheTE5OTdAZ21haWwuY29tIiwidXNlcklkIjoiN2UzOTY0MDktNDRlMS00MWVmLWE3YmItMDVhNTIxOTJlYzIxIiwiaWF0IjoxNjk3MDE1NDA1fQ.m-RAqUdFIQOYyOhadmAua01Jrv_nY7qmXt8i-Lx3UIc
